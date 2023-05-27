@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
                 chronometer.setBase(SystemClock.elapsedRealtime());
                 getPauseOffset = pauseOffset;//걸린 시간 저장 받기: 1000 == 1초
 
-                //걸린 시간 알림(변형해서 사용)
+                //걸린 시간 알림(text 변형해서 사용)
                 Toast.makeText(getApplicationContext(), "시간 확인: "+getPauseOffset, Toast.LENGTH_LONG).show();
 
                 pauseOffset = 0;
